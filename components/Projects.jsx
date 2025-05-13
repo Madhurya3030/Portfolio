@@ -3,6 +3,11 @@ import { motion } from 'framer-motion';
 import './Projects.css';
 
 // Import images directly if they are in the src folder
+import fcImg from '../public/assets/fc.png';
+import hbImg from '../public/assets/hb.png';
+import homecareImg from '../public/assets/homecare.jpg';
+import artivaImg from '../public/assets/artiva.png';
+import googleImg from '../public/assets/google.png';
 
 // Updated projectsData array with imported images
 const projectsData = [
@@ -11,7 +16,7 @@ const projectsData = [
     title: 'Automatic Attendance System',
     description: 'An attendance system using face recognition with OpenCV and Haar.',
     tags: ['Python', 'OpenCV', 'Face Recognition', 'Haar Cascade Classifier algorithm', 'Tkinter'],
-    image: '/assets/fc.png',
+    image: fcImg,
     github: 'https://github.com/Madhurya3030/Face-Recognition',
   },
   {
@@ -19,7 +24,7 @@ const projectsData = [
     title: 'HopeBridge',
     description: 'A web application where citizens can directly report the people in need.',
     tags: ['React', 'Node', 'MongoDb', 'Express', 'Twilio', 'Openstreetmap', 'Gemini chatbot'],
-    image: '/assets/hb.png',
+    image: hbImg,
     github: 'https://github.com/Madhurya3030/HopeBridge',
   },
   {
@@ -27,7 +32,7 @@ const projectsData = [
     title: 'Homecare',
     description: 'A mobile application where citizens can get instant home services.',
     tags: ['React Native', 'node', 'openstreetmap', 'MongoDb'],
-    image: '/assets/homecare.jpg',
+    image: homecareImg,
     github: 'https://github.com/Madhurya3030/Homecare',
   },
   {
@@ -35,7 +40,7 @@ const projectsData = [
     title: 'Artiva',
     description: 'A responsive arts and crafts website where sellers can purchase the products and showcase their skills',
     tags: ['Html', 'CSS', 'Javascript', 'PHP'],
-    image: '/assets/artiva.png',
+    image: artivaImg,
     github: 'https://github.com/Madhurya3030/Arts-Ecommerce-Website',
   },
   {
@@ -43,10 +48,11 @@ const projectsData = [
     title: 'Google Clone',
     description: 'The perfect clone of Google using simple logic',
     tags: ['Html', 'CSS', 'Javascript'],
-    image: '/assets/google.png',
+    image: googleImg,
     github: 'https://github.com/Madhurya3030/GoogleClone',
   },
 ];
+
 
 
 const Projects = ({ id }) => {
