@@ -24,7 +24,7 @@ const projectsData = [
     title: 'Homecare',
     description: 'A mobile application where citizens can get instant home services.',
     tags: ['React Native', 'node', 'openstreetmap','MongoDb' ],
-    image: 'public/assets/homecare.jpg',
+    image: 'assets/homecare.jpg',
     github: 'https://github.com/Madhurya3030/Homecare'
   },
   {
