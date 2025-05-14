@@ -33,9 +33,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 440px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+@media (max-width: 768px) {
+  .about-image img {
+    width: 150px; /* Adjust size for smaller screens */
+    height: 150px;
+  }
+}
 .about-text h3 {
   font-size: 1.75rem;
   color: #0284c7;
