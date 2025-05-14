@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-import ProfileImg from '/assets/Img1.jpg'; // Ensure the path is correct
+import ProfileImg from '../public/assets/Img1.jpg'; // Ensure the path is correct
 
 import './About.css'; // Assuming you have this file
 
