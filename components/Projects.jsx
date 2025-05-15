@@ -8,6 +8,7 @@ import hbImg from '../public/assets/hb.png';
 import homecareImg from '../public/assets/homecare.jpg';
 import artivaImg from '../public/assets/artiva.png';
 import googleImg from '../public/assets/google.png';
+import geminipic from '../public/assets/gemini.jpg';
 
 // Updated projectsData array with imported images
 const projectsData = [
@@ -50,6 +51,14 @@ const projectsData = [
     tags: ['Html', 'CSS', 'Javascript'],
     image: googleImg,
     github: 'https://github.com/Madhurya3030/GoogleClone',
+  },
+  {
+    id: 6,
+    title: 'Gemini ChatBot',
+    description: 'Chatbot using Gemini 1.5 flash Api ',
+    tags: ['Mern stack', 'Api'],
+    image: geminipic,
+    github: 'https://github.com/Madhurya3030/GeminiChatbot',
   },
 ];
 
