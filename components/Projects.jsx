@@ -34,7 +34,7 @@ const projectsData = [
     description: 'A mobile application where citizens can get instant home services.',
     tags: ['React Native', 'node', 'openstreetmap', 'MongoDb'],
     image: homecareImg,
-    github: 'https://github.com/Madhurya3030/Homecare',
+    github: 'https://github.com/Madhurya3030/HomeCare',
   },
   {
     id: 4,
