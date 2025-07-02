@@ -60,6 +60,14 @@ const projectsData = [
     image: geminipic,
     github: 'https://github.com/Madhurya3030/GeminiChatbot',
   },
+   {
+    id: 7,
+    title: 'InternHelp',
+    description: 'An Android Application where interns can communicate their issues ',
+    tags: ['React Native', 'Node.js', 'socket.io', 'Google OAuth', 'Nodemailer'],
+    image: geminipic,
+    github: 'https://github.com/Madhurya3030/InternHelp',
+  },
 ];
 
 
