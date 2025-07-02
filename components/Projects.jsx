@@ -9,7 +9,7 @@ import homecareImg from '../public/assets/homecare.jpg';
 import artivaImg from '../public/assets/artiva.png';
 import googleImg from '../public/assets/google.png';
 import geminipic from '../public/assets/gemini.jpg';
-import intern form '../public/assets/intern.png';
+import intern from '../public/assets/intern.png';
 
 // Updated projectsData array with imported images
 const projectsData = [
