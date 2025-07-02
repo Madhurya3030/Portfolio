@@ -66,7 +66,7 @@ const projectsData = [
     title: 'InternHelp',
     description: 'An Android Application where interns can communicate their issues ',
     tags: ['React Native', 'Node.js', 'socket.io', 'Google OAuth', 'Nodemailer'],
-    image: geminipic,
+    image: intern,
     github: 'https://github.com/Madhurya3030/InternHelp',
   },
 ];
