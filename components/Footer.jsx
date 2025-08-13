@@ -34,7 +34,7 @@ const Footer = () => {
         </div>
 
         <div className="footer-bottom">
-          <p>© {new Date().getFullYear()} Your Name. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Madhurya. All rights reserved.</p>
           <p>Designed & Built with React</p>
         </div>
       </div>
